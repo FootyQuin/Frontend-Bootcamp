@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: blue;
+    font-size: 50px;
+    position: absolute;
+    transform: translate(40%,50%);
+}
+
+img{
+    width: 700px;
+    height:400px;
+    object-fit:cover;
+    border-radius:50px;
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+#banner{
+    width:100%;
+}
+
+#topbanner{
+    display:flex;
+    position: relative;
+}
+
+
+body {
+    font-family: 'Chelsea Market', cursive; 
+    background-color: aquamarine;
+    text-align: center;
+}
+
+
+
+p{
+    font-size: 20px;
+    padding: 10px;
+}
